@@ -1,0 +1,19 @@
+.map {
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map iframe {
+    display: block;
+    width: 100%;
+    height: 500px;
+    margin-top: 25px;
+}
+
+.setumei a {
+    margin-top: 20px;
+    margin-left: 50px;
+}
