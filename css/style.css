@@ -305,12 +305,13 @@ input[type="submit"] {
 #sns .wrapper {
     display: flex;
     justify-content: space-between;
+
 }
 #sns .sub-title {
     margin-bottom: 30px;
 }
 .sns-box {
-    width: 30%;
+    width: 1000px;
 }
 
 /* フッター
@@ -414,6 +415,7 @@ footer p {
     .location-map,
     .sns-box {
         width: 100%;
+        margin: center;
     }
     .sns-box {
         margin-bottom: 30px;
