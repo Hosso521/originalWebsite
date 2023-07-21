@@ -35,7 +35,7 @@
 
 .lead {
     max-width: 1200px;
-    margin: 60px auto;
+    margin: 100px auto;
 }
 
 *,
@@ -56,9 +56,9 @@ a {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
     font-size: 16pt;
-    color: #000000;
+    color: black;
     line-height: 1;
     background-color: #ffffff;
 }
@@ -166,7 +166,7 @@ img {
         display: block;
         width: 44px;
         height: 34px;
-        background-image: url(../images/common/icon-menu.png);
+        background-image: url(../images/index/icon-menu.png);
         background-size: 50%;
         background-position: center;
         background-repeat: no-repeat;
@@ -179,7 +179,7 @@ img {
 
 .footer {
     color: #ffffff;
-    background-color: #e3a758;
+    background-color: #432;
     padding-top: 30px;
     padding-bottom: 15px;
     display: flex;

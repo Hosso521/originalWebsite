@@ -9,7 +9,12 @@ body{
     font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
     color: #432;
+    text-align:  center;  
+    margin: center;
+    margin: auto;
 }
+
+
 a {
     text-decoration: none;
 }
@@ -86,10 +91,11 @@ iframe {
     color: #0bd;
 }
 
+
 /* HOME
 ------------------------------- */
 #home {
-    background-image: url(../images/main-bg.jpg);
+    background-color: #e3a758;
     min-height: 100vh;
 }
 #home .page-title {
@@ -107,7 +113,7 @@ iframe {
 /* NEWS
 ------------------------------- */
 #news {
-    background-image: url(../images/news-bg.jpg);
+    background-color: #e3a758;
     height: 270px;
     margin-bottom: 40px;
 }
@@ -120,6 +126,24 @@ iframe {
     margin-bottom: 50px;
 }
 
+/* MAP
+-----------------------------------------*/
+#map {
+    background-color: #e3a758;
+    height: 270px;
+    margin-bottom: 40px;
+}
+#map .page-title {
+    text-align: center;
+}
+.maps-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+
 /* 記事部分 */
 article {
     width: 74%;
@@ -130,7 +154,7 @@ article {
     margin-bottom: 40px;
 }
 .post-date {
-    background: #0bd;
+    background: #e3a758;
     border-radius: 50%;
     color: #fff;
     width: 100px;
@@ -177,12 +201,12 @@ aside {
     border-bottom: 1px #ddd solid;
 }
 .sub-menu a {
-    color: #432;
+    color: #e3a758;
     padding: 10px;
     display: block;
 }
 .sub-menu a:hover {
-    color: #0bd;
+    color: #e3a758;
 }
 aside p {
     padding: 12px 10px;
@@ -191,8 +215,8 @@ aside p {
 /* MENU
 ------------------------------- */
 #menu {
-    background-image: url(../images/menu-bg.jpg);
-    min-height: 100vh;
+    background-color: #e3a758;
+    min-height: 150px;
 }
 .menu-content {
     max-width: 560px;
@@ -394,4 +418,5 @@ footer p {
     .sns-box {
         margin-bottom: 30px;
     }
+    
 }

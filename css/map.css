@@ -4,6 +4,7 @@
     margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
 }
 
 .map iframe {
@@ -16,5 +17,9 @@
 .setumei a {
     display: flex;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 400px;
+}
+
+.main  a {
+    text-align:  center;
 }
