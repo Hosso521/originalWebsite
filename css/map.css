@@ -17,7 +17,7 @@
 .setumei a {
     display: flex;
     margin-top: 20px;
-    margin-left: 400px;
+    justify-content:center;
 }
 
 .main  a {
